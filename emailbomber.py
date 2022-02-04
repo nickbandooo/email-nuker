@@ -16,4 +16,3 @@ for i in range(0,am):
         print (i+1)
     else: 
         print ("failed to send msg ")
-        break
