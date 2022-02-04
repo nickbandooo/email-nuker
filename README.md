@@ -68,3 +68,10 @@ Run the script
 ```bash
 python3 emailbomber.py
 ```
+
+
+#### for windows 
+download latest version from this link <a href=https://github.com/bagarrattaa/email-bomber/releases/download/v1.0.0/emailbomber.exe> 
+  download
+  </a>
+and run it
