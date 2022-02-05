@@ -54,6 +54,8 @@ pkg up -y
 Install some dependencies
 ```bash
 pkg install git python3 -y
+```
+```bash
 pip3 install requests
 ```
 Clone the repository
@@ -71,7 +73,7 @@ python3 emailbomber.py
 
 
 #### for windows 
-download latest version from this link <a href=https://github.com/bagarrattaa/email-bomber/releases/download/v1.0.0/emailbomber.exe> 
-  download
+download latest version from this <a href=https://github.com/bagarrattaa/email-bomber/releases/download/v1.0.0/emailbomber.exe> 
+  link
   </a>
 and run it
