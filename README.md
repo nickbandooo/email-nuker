@@ -12,7 +12,7 @@ _Don't use this to take revenge_<br />
 * `Unlimited Usage !`
 * `Cross Platform`
 * `Supports newest Android also`
-
+* ` no spam mails; all emails go directly to inbox `
 
 ## Tested On :
 <ul>
