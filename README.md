@@ -1,4 +1,4 @@
-# email-bomber
+# email-nuker
 this is a email bomber unlike  other email bombers u don't need your gmail email id to use this
 
 
@@ -60,11 +60,11 @@ pip3 install requests
 ```
 Clone the repository
 ```bash
-git clone https://github.com/bagarrattaa/email-bomber
+git clone https://github.com/bagarrattaa/email-nuker
 ```
-Go to the email-bomber directory
+Go to the email-nuker directory
 ```bash
-cd email-bomber
+cd email-nuker
 ```
 Run the script
 ```bash
@@ -73,7 +73,7 @@ python3 emailbomber.py
 
 
 #### for windows 
-download latest version from this <a href=https://github.com/bagarrattaa/email-bomber/releases/download/v1.0.0/emailbomber.exe> 
+download latest version from this <a href=https://github.com/bagarrattaa/email-nuker/releases/download/v1.0.0/emailbomber.exe> 
   link
   </a>
 and run it
