@@ -19,6 +19,9 @@ _Don't use this to take revenge_<br />
   <li>Kali Linux</li>
   <li>Termux</li>
   <li>Ubuntu</li>
+<li> ios </li>
+<li> ipad os </li>
+<li> mac os </li>
   <li>Parrot Sec OS</li>
   <li>Kali nethunter</li>
   <li>Alpine linux</li>
@@ -43,7 +46,11 @@ From here <a href="https://f-droid.org/repo/com.termux_117.apk">Link</a>
 
 
   ## usage 
-  
+  #### web app 
+email nuker is now Available as a web app!
+to use it just visit 
+https://email-nuker.herokuapp.com
+
 #### for termux 
 update the packages 
 
