@@ -48,9 +48,11 @@ From here <a href="https://f-droid.org/repo/com.termux_117.apk">Link</a>
   ## usage 
   #### web app 
 email nuker is now Available as a web app!
-to use it just visit 
+<br>
+to use it just visit
+<br>
 https://email-nuker.herokuapp.com
-
+<br>
 #### for termux 
 update the packages 
 
