@@ -4,7 +4,7 @@ this is a email bomber unlike  other email bombers u don't need your Email id to
 
 ## Disclaimer
 *This tool is for educational purposes only !*
-_Don't use this to take revenge_<br />
+_Don't use this to take revenge or any illegal purposes_<br />
 *I will not be responsible for any misuse*
 
 
