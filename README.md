@@ -1,5 +1,5 @@
 # email-nuker
-this is a email bomber unlike  other email bombers u don't need your gmail email id to use this
+this is a email bomber unlike  other email bombers u don't need your Email id to use this
 
 
 ## Disclaimer
