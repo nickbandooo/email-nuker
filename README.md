@@ -87,8 +87,8 @@ download latest version from this <a href=https://github.com/bagarrattaa/email-n
   </a>
 and run it
 ## discord server 
-<br> 
-* `join the official discord server for email-nuker !
-* `all updates of email-nuker will be posted here
+
+* `join the official discord server for email-nuker ! `
+* `all updates of email-nuker will be posted here `
 <br>
 https://discord.gg/79GRTGRP3m
