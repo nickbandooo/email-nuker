@@ -1,7 +1,7 @@
 import requests 
 import random
 import sys
-cv=1.0.1
+cv=int(1.0.1)
 lv=int(requests.get("https://raw.githubusercontent.com/bagarrattaa/email-nuker/main/.version").text)
 if lv> cv: 
     print ("version "+lv+"is available")
