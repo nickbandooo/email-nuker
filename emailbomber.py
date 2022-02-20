@@ -4,7 +4,7 @@ import sys
 ccv=1
 lv=int(requests.get("https://raw.githubusercontent.com/bagarrattaa/email-nuker/main/.version").text)
 if lv > ccv: 
-    print ("version "+lv+"is available")
+    print ("version "+str(lv)+"is available")
     print("to update bombing script run this command in termux")
     print("pkg up -y ; cd ~ ; rm -rf email-nuker ; git clone https://github.com/bagarrattaa/email-nuker")
     sys.exit()
