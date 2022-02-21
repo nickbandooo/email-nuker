@@ -1,6 +1,10 @@
 import requests 
 import random
 print ("email-nuker version: 1.0.2")
+print ("github: https://github.com/bagarrattaa/email-nuker ")
+print ("join the official discord server of email-nuker for latest updates !!")
+print("discord server invite link: https://discord.gg/79GRTGRP3m")
+print("this tool is only for educational purposes")
 to=str(input("enter target email to bomb "))
 sub=str(input("enter subject "))
 msg=str(input("enter message "))
