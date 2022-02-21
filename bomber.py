@@ -1,6 +1,6 @@
 import requests 
 import random
-print ("email-nuker version: 1.0.1")
+print ("email-nuker version: 1.0.2")
 to=str(input("enter target email to bomb "))
 sub=str(input("enter subject "))
 msg=str(input("enter message "))
