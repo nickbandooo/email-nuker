@@ -1,8 +1,11 @@
 import requests 
 import random
 import os 
-os.system("clear")
+import time
 os.system("bash wake.sh &")
+time.sleep(2)
+os.system("clear")
+
 print("\n")
 print ("email-nuker version: 1.0.2")
 print ("github: https://github.com/bagarrattaa/email-nuker ")
