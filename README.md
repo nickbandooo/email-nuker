@@ -82,7 +82,7 @@ python3 emailbomber.py
 
 
 #### for windows 
-download latest version from this <a href=https://github.com/bagarrattaa/email-nuker/releases/download/v1.0.0/emailbomber.exe> 
+download latest version from this <a href=https://github.com/bagarrattaa/email-nuker/releases/download/v1.0.0/emailnuker.exe> 
   link
   </a>
 and run it
