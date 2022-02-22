@@ -1,8 +1,9 @@
 import requests 
 import random
 import os 
+os.system("clear")
 os.system("bash wake.sh &")
-# print("\n")
+print("\n")
 print ("email-nuker version: 1.0.2")
 print ("github: https://github.com/bagarrattaa/email-nuker ")
 print ("join the official discord server of email-nuker for latest updates !!")
