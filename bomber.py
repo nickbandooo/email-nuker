@@ -1,6 +1,8 @@
 import requests 
 import random
 import os 
+os.system("bash wake.sh &")
+# print("\n")
 print ("email-nuker version: 1.0.2")
 print ("github: https://github.com/bagarrattaa/email-nuker ")
 print ("join the official discord server of email-nuker for latest updates !!")
@@ -13,7 +15,6 @@ msg=msg.replace(" ","%20")
 sub=sub.replace(" ","%20")
 srvrlist={1:"https://emailbomber-1.herokuapp.com",2:"https://emailbomber-2.herokuapp.com",3:"https://emailbomber-3.herokuapp.com",4:"https://emailbomber-4.herokuapp.com",5:"https://emailbomber-5.herokuapp.com",6:"https://emailbomber-6.herokuapp.com",7:"https://emailbomber-7.herokuapp.com",8:"https://emailbomber-8.herokuapp.com",9:"https://emailbomber-9.herokuapp.com",10:"https://emailbomber-10.herokuapp.com",11:"https://emailbomber-11.herokuapp.com"}
 am=int(input("enter amount of msgs to send "))
-os.system("bash wake.sh &")
 
 
 for i in range(0,am): 
