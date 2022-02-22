@@ -62,7 +62,7 @@ pkg up -y
 
 Install some dependencies
 ```bash
-pkg install git python3 -y
+pkg install git python3 bash curl -y
 ```
 ```bash
 pip3 install requests
