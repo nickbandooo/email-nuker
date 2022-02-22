@@ -30,4 +30,6 @@ for i in range(0,am):
         print (i+1)
     else: 
         print ("failed to send msg ")
+        print("please report this error to developer ")
+        print("the responce reseaved from the server was: "+str(srvr)+req.text)
         break
