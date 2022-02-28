@@ -42,7 +42,7 @@ DON'T WORRY
 
 You can download the latest termux app and install it
 
-From here <a href="https://f-droid.org/repo/com.termux_117.apk">Link</a>
+From here <a href="https://f-droid.org/repo/com.termux_118.apk">Link</a>
 
 
   ## usage 
