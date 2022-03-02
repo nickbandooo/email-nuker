@@ -23,7 +23,7 @@ am=int(input("enter amount of msgs to send "))
 
 for i in range(0,am): 
     # os.system("clear")
-    srvr=random.randint(1,11)
+    srvr=random.randint(1,12)
     req=requests.get(srvrlist.get(srvr)+"/bomb/"+to+"/"+sub+"/"+msg)
     if req.text=="Sent": 
         print("           ")
