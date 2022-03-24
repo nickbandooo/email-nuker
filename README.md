@@ -79,7 +79,31 @@ Run the script
 ```bash
 python3 emailbomber.py
 ```
+#### For Debian-based GNU/Linux distributions
 
+Update the packages
+```bash
+sudo apt-get update; sudo apt-get upgrade -y
+```
+Install some dependencies
+```bash
+sudo apt-get install git python3 python3-pip -y
+```
+```bash
+sudo pip3 install requests
+```
+Clone the repository
+```bash
+git clone https://github.com/bagarrattaa/email-nuker
+```
+Go to the email-nuker directory
+```bash
+cd email-nuker
+```
+Run the script
+```bash
+python3 emailbomber.py
+```
 
 #### for windows 
 download latest version from this <a href=https://github.com/bagarrattaa/email-nuker/releases/download/v1.0.0/emailnuker.exe> 
