@@ -27,7 +27,7 @@ for i in range(0,am):
     req=requests.get(srvrlist.get(srvr)+"/bomb/"+to+"/"+sub+"/"+msg)
     if req.text=="Sent": 
         print("           ")
-        print (i+1)
+        print (str(i+1)+" msgs sent")
     else: 
         print ("failed to send msg ")
         print("please report this error to developer ")
