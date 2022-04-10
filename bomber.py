@@ -2,7 +2,7 @@ import requests
 import random
 import os 
 import time
-os.system("bash wake.sh &")
+# os.system("bash wake.sh &")
 time.sleep(2)
 os.system("clear")
 print("\n")
