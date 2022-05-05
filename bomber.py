@@ -6,7 +6,7 @@ import time
 time.sleep(2)
 os.system("clear")
 print("\n")
-print ("email-nuker version: 1.0.2")
+print ("email-nuker version: 2.0")
 print ("github: https://github.com/bagarrattaa/email-nuker ")
 print("this tool is only for educational purposes")
 to=str(input("enter target email to bomb "))
@@ -14,7 +14,7 @@ sub=str(input("enter subject "))
 msg=str(input("enter message "))
 msg=msg.replace(" ","%20")
 sub=sub.replace(" ","%20")
-srvrlist={1:"https://emailbomber-1.herokuapp.com",2:"https://emailbomber-2.herokuapp.com",3:"https://emailbomber-3.herokuapp.com",4:"https://emailbomber-4.herokuapp.com",5:"https://emailbomber-5.herokuapp.com",6:"https://emailbomber-6.herokuapp.com",7:"https://emailbomber-7.herokuapp.com",8:"https://emailbomber-8.herokuapp.com",9:"https://emailbomber-9.herokuapp.com",10:"https://emailbomber-1.herokuapp.com",11:"https://emailbomber-1.herokuapp.com",12:"https://emailbomber-1.herokuapp.com",13:"https://emailbomber-13.herokuapp.com"}
+srvrlist={1:"https://newemail-nuker.herokuapp.com/1",2:"https://newemail-nuker.herokuapp.com/2",3:"https://newemail-nuker.herokuapp.com/3",4:"https://newemail-nuker.herokuapp.com/4",5:"https://newemail-nuker.herokuapp.com/5",6:"https://newemail-nuker.herokuapp.com/6",7:"https://newemail-nuker.herokuapp.com/7",8:"https://newemail-nuker.herokuapp.com/8",9:"https://newemail-nuker.herokuapp.com/9",10:"https://newemail-nuker.herokuapp.com/10",11:"https://newemail-nuker.herokuapp.com/11",12:"https://newemail-nuker.herokuapp.com/12",13:"https://newemail-nuker.herokuapp.com/13",14:"https://newemail-nuker.herokuapp.com/14",15:"https://newemail-nuker.herokuapp.com/15",16:"https://newemail-nuker.herokuapp.com/16",17:"https://newemail-nuker.herokuapp.com/17",18:"https://newemail-nuker.herokuapp.com/18",19:"https://newemail-nuker.herokuapp.com/19",20:"https://newemail-nuker.herokuapp.com/20"}
 am=int(input("enter amount of msgs to send "))
 for i in range(0,am): 
     srvr=random.randint(1,13)
