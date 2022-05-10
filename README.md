@@ -1,4 +1,4 @@
-# email-nuker
+# email-nuker v 2.0
 this is a email bomber unlike  other email bombers u don't need your Email id to use this
 
 
