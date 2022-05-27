@@ -1,4 +1,7 @@
 # email-nuker v 2.0
+
+[![Github All Releases](https://img.shields.io/github/downloads/bagarrattaa/email-nuker/total.svg)]()
+
 this is a email bomber unlike  other email bombers u don't need your Email id to use this
 
 
