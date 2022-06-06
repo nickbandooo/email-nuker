@@ -2,7 +2,6 @@ import requests
 import random
 import os 
 import time
-# os.system("bash wake.sh &")
 time.sleep(2)
 os.system("clear")
 print("\n")
@@ -21,6 +20,7 @@ if "/" in msg:
 else: 
     for i in range(0,am): 
         srvr=random.randint(1,21)
+        time.sleep(5)
         req=requests.get(srvrlist.get(srvr)+"/bomb/"+to+"/"+sub+"/"+msg)
         if req.text=="Sent": 
             print("           ")
