@@ -118,7 +118,11 @@ and run it
 join the official discord server for email nuker!!!
 <br> 
 all updates for email-nuker will be published here
-
+<br>
 <a href=https://discord.gg/Bybg9rMd>
 join server(link1)
+</a>
+<br>
+<a href=https://discord.gg/ndp64XbtPp.>
+join server (link2)
 </a>
