@@ -113,3 +113,12 @@ download latest version from this <a href=https://github.com/bagarrattaa/email-n
   link
   </a>
 and run it
+## discord server
+<br>
+join the official discord server for email nuker!!!
+<br> 
+all updates for email-nuker will be published here
+
+<a href=https://discord.gg/Bybg9rMd>
+join server(link1)
+</a>
