@@ -54,7 +54,7 @@ email nuker is now Available as a web app!
 <br>
 to use it just visit
 <br>
-https://email-nuker.herokuapp.com
+https://emailnuker.herokuapp.com
 <br>
 #### for termux 
 update the packages 
