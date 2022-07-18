@@ -119,7 +119,7 @@ join the official discord server for email nuker!!!
 <br> 
 all updates for email-nuker will be published here
 <br>
-<a href=https://discord.gg/Bybg9rMd>
+<a href=https://disboard.org/server/join/985952407773126696>
 join server(link1)
 </a>
 <br>
