@@ -113,29 +113,3 @@ download latest version from this <a href=https://github.com/bagarrattaa/email-n
   link
   </a>
 and run it
-## discord server
-<br>
-join the official discord server for email nuker!!!
-<br> 
-all updates for email-nuker will be published here
-<br>
-<a href=https://disboard.org/server/join/985952407773126696>
-join server(link1)
-</a>
-<br>
-<a href=https://discord.gg/ndp64XbtPp.>
-join server (link2)
-</a>
-
-
-
-
-<br>
-I know that many people have faced a common problem due to our email bomber which is for educational purposes only as email-nuker was alot better in starting as it has less users, many more email ids but then, we got more users, bombing per email id increased, Google started disabling some of our Google accounts, script started giving some errors, very rarely someone reported bugs, whenever someone reported bugs, we checked the bomber and removed email ids disabled by Google. We  also kept on making and adding new email ids but then Google got very angry and now, Google very rarely let's me make a email id without adding phone number. We can't add phone number to make accounts as if a phone number is linked with 1 or more Google accounts and if 1 account gets banned/disabled then, all accounts associated with that phone number will also get banned by Google. Google also has some limits that 1 Google account can only send 500 mails per day and if we don't add more email ids in bomber,
-usage per email id will increase and more accounts will be disabled by Google so, we really need to add more email ids and for that, we will need to make more email ids which Google isn't letting me make so,
-
-<br>
-PLEASE DONATE ME GMAIL IDS IN DISCORD DMS WITH PASSWORDS
-<br>
-thank you 
-<br>
