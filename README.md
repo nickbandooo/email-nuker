@@ -48,14 +48,7 @@ You can download the latest termux app and install it
 From here <a href="https://f-droid.org/repo/com.termux_118.apk">Link</a>
 
 
-  ## usage 
-  #### web app 
-email nuker is now Available as a web app!
-<br>
-to use it just visit
-<br>
-https://emailnuker.herokuapp.com
-<br>
+
 #### for termux 
 update the packages 
 
@@ -72,32 +65,7 @@ pip3 install requests
 ```
 Clone the repository
 ```bash
-git clone https://github.com/bagarrattaa/email-nuker
-```
-Go to the email-nuker directory
-```bash
-cd email-nuker
-```
-Run the script
-```bash
-python3 emailbomber.py
-```
-#### For Debian-based GNU/Linux distributions
-
-Update the packages
-```bash
-sudo apt-get update; sudo apt-get upgrade -y
-```
-Install some dependencies
-```bash
-sudo apt-get install git python3 python3-pip -y
-```
-```bash
-sudo pip3 install requests
-```
-Clone the repository
-```bash
-git clone https://github.com/bagarrattaa/email-nuker
+git clone https://github.com/nickbandooo/email-nuker
 ```
 Go to the email-nuker directory
 ```bash
@@ -108,7 +76,6 @@ Run the script
 python3 emailbomber.py
 ```
 
-#### for windows 
 download latest version from this <a href=https://github.com/bagarrattaa/email-nuker/releases/download/v1.0.0/emailnuker.exe> 
   link
   </a>
